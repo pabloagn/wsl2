@@ -1,0 +1,25 @@
+# .gitignore file for: wsl2
+# Ignore useless dirs
+.cache/
+.dotnet/
+.local/
+.vscode-server/
+Documents/
+.bash_history
+.bash_logout
+.bashrc
+.motd_shown
+.python_history
+.shell.pre-oh-my-zsh
+.viminfo
+.wget-hsts
+
+# Selectively ignore inside .config
+.config/antigen/
+.config/datapane
+.config/nvim/plugged/
+.config/oh-my-zsh/
+.config/zsh/*
+!.config/zsh/.aliases
+!.config/zsh/.p10k.zsh
+!.config/zsh/.zshrc
