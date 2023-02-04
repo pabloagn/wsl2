@@ -1,8 +1,10 @@
 # .gitignore file for: wsl2
 # Ignore useless dirs
+.gitconfig
 .cache/
 .dotnet/
 .local/
+.vscode/
 .vscode-server/
 Documents/
 .bash_history
