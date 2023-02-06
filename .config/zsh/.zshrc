@@ -100,15 +100,14 @@ antigen bundle docker
 # Load bundles from external repos.
 antigen bundle git
 antigen bundle pip
-antigen bundle zsh-users/zsh-completions
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-syntax-highlighting
+#antigen bundle zsh-users/zsh-completions
+#antigen bundle zsh-users/zsh-autosuggestions
+#antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle python
 antigen bundle sudo
 antigen bundle virtualenv
 antigen bundle heroku
-antigen bundle shopt
-antigen bundle zsh-users/vi-mode
+#antigen bundle shopt
 antigen theme romkatv/powerlevel10k
 
 # Tell Antigen that you're done.
@@ -138,6 +137,7 @@ ZLE_RPROMPT_INDENT=0
 
 # Source oh-my-zsh config file
 source $ZSH/oh-my-zsh.sh
+
 
 #============================================================
 # ALIASES
